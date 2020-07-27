@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Riuman</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css" id="mystylesheet">
+    <script src="https://use.fontawesome.com/e47aeeed86.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="toggle">
+        <button id="light" onclick="swapStyle('style.css')">
+          <i class="fa fa-sun-o" aria-hidden="true"></i>
+        </button>
+        <button id="dark" onclick="swapStyle('dark.css')">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+        </button>
+      </div>
+    
+        <div class="header">
+        <h1>Mohamed Riuman</h1>
+        <p>Front-End Developer</p>
+        <img src="riuman.jpg" alt="Me">
+        </div>
+        <div class="links">
+        <ul>
+            <a href="https://codepen.io/riuman21"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/Riuman_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/riuman21"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/riuman21/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </ul>
+        </div>
+        <div class="about">
+          <p2>
+            Hello there! My name is Riuman. Lawyer, Doctor, Photographer, Pilot. I am none of those things but i do code. Powered on VSCode and coffee. Building and maintaining responsive websites. View some of my projects on github. Let's connect!
+          </p2>
+          </div>
+     </div>
+     <script type="text/javascript">
+     function swapStyle(sheet) {
+       document.getElementById('mystylesheet').href = sheet
+     }
+    </script>
+</body>
+</html>
